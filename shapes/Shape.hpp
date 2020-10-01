@@ -12,6 +12,8 @@ public:
         : color_{color} {}
     
     Shape() = default;
+    Shape(const Shape&) = default;
+
 
     virtual ~Shape() {}
 
